@@ -1,6 +1,6 @@
 import React,  {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook,FaAddressBook} from 'react-icons/fa'
+import { HiOutlineInbox} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
 
@@ -60,9 +60,9 @@ const Navbar = () => {
             </li>
 
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[]'>
-                <a className='text-slate-950 flex justify-between items-center w-ful'
+                <a className=' text-slate-950 flex justify-between items-center w-full'
                 href="/">
-                    Email <HiOutlineMail size={30}/>
+                    Email <HiOutlineInbox size={30}/>
                 </a>
             </li>
 

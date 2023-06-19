@@ -5,13 +5,13 @@ import PH1 from '../assets/PracticeHealthNS_1.png'
 import PH2 from '../assets/PracticeHealthNS_2.png'
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen bg-[#bdc4bd99] text-gray-60 flex flex-col justify-center'>
-        <div className='max-2-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+    <div name='work' className='w-screen md:h-screen bg-[#bdc4bd99] text-gray-60 flex flex-col justify-center'>
+        <div className='max-2-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+<div className='max-w-[1000px] mx-auto p-1 flex flex-col justify-center w-full h-full'>
             <div className='pb-2'>
                 <p className='text-4xl font-bold inline border-b-4 border-t-4 text-gray-600 border-yellow-600'>Work</p>
                 <p className='py-6'>Check out some of my recent projects</p>
             </div>
-<div className='max-w-[1000px] mx-auto p-1 flex flex-col justify-center w-full h-full'>
             {/* Container */}
 
             <div className='  grid sm:grid-cols-2 md:grid-cols-2 gap-2 w-[75%]'>

@@ -13,13 +13,14 @@ const About = () => {
                  </div>
                     <div></div>
                     </div>
-                    <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+                    <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
             <p>Hi, I'm Bayo, with several years of experience in data analysis and app development</p>
             </div>
 
             <div>
-                <p>I love applying concepts such as database normalization, data mining, data integration, ETL and data cleansing. I use the following tools to achieve these; SQL queries, stored procedures and triggers, Python. To visualize, I employ Power Query, Power BI and Tableau. </p>
+                <p>I love applying concepts such as database normalization, data mining, ETL and data cleansing. I use the following tools to achieve these; SQL queries, stored procedures and triggers, Python. To visualize, I employ Power Query, Power BI and Tableau. </p>
+            <p>As a Full Stack developer with MERN stack, I use React, javascript, React Native, for front-end while for backend I use Express.js, Google Firestore, Google Authentication, MySQL and MongoDB.</p>
             </div>
 
         </div>

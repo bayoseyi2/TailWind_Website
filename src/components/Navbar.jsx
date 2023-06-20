@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo.png'
 
 import {Link} from 'react-scroll'
+import Resume from '../assets/Resume_BayoADEOLA.pdf'
 
 const Navbar = () => {
     const[nav, setNav] = useState(false)
@@ -103,7 +104,7 @@ const Navbar = () => {
 
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-600'>
                 <a className='text-slate-950 flex justify-between items-center w-full'
-                href="contact">
+                download="Resume" href={Resume} onClick={()=>alert("Resume downloaded")}>
                     Resume <BsFillPersonLinesFill size={30}/>
                 </a>
             </li>

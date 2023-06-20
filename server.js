@@ -15,6 +15,7 @@ const OPTIONS = {
   redirect: false
 };
 app.use(express.static("build", OPTIONS));
+app.use(express.static(path.join(__dirname, "./build")));
 
 
 app.get("/*", (req, res) => {

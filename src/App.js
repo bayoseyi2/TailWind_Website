@@ -10,11 +10,13 @@ function App() {
   return (
     <div>
       <Navbar/>
+      <div className="top-[80px] absolute">
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact/>
+      </div>
     </div>
   );
 }

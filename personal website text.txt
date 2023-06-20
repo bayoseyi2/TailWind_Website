@@ -1,2 +1,0 @@
-using React, React Native, Node.js, TailwindCSS and Javascript. I have more than one year experience in full stack and cross-platform app development. 
-For data analysis, SQL, Python, Power BI, Ms SQL Server, Power Query, Tableau are some of the tools I have mastered over the years.

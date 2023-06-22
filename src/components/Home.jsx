@@ -12,7 +12,7 @@ import {Link} from 'react-scroll'
         <p className='text-yellow-600'>Hi,my name is </p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>Bayo ADEOLA</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#1a2752]'>I'm an excellent Data Analyst | Full Stack Developer. </h2>
-        <p className='text-4xl py-4 max-w-[800px] text-[#8892b0]'>With more than 5 years experience in data analysis, previous experience include almost two decades in banking, sales, customer service and business intelligence. I am passionate about data analysis and visualization.
+        <p className='text-4xl py-4 max-w-[800px] text-[#8892b0]'>With more than 5 years experience in data analysis, previous experience includes almost two decades in banking, sales, customer service and business intelligence. I am passionate about data analysis and visualization.
             I also enjoy web and mobile application development. I have more than one year experience in full stack and cross-platform app development. 
            
         </p>
